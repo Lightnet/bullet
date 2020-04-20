@@ -23,10 +23,10 @@ Download https://github.com/HeapsIO/bullet to
 ```
 HaxeToolkit\haxe\hashlink
 HaxeToolkit\haxe\lib
-HaxeToolkit\haxe\lib\bullet <- default for haxelib to read for import
+HaxeToolkit\haxe\lib\bullet <- default for haxelib to read for import "haxelib git bullet https://github.com/HeapsIO/bullet"
 HaxeToolkit\haxe\lib\bulletmod <- compile path build look for hashlink folder.
 ```
-Reason for two folder is one bullet.sln compiler path for hashlash on path dir and other is need to haxelib config for import.
+Reason for two folder is one bullet.sln compiler path for hashlash on path dir and other is need to haxelib config for import read correct path.
 
 
 https://github.com/bulletphysics/bullet3/releases get the bullet3 2.87 version.
