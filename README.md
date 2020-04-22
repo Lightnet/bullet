@@ -8,7 +8,9 @@ Supports both HashLink and JS output thanks to [WebIDL](https://github.com/ncann
 
 Note: 32 bit build hashlink is not working on window 10 last checked 1.11.
 
-Download hashlink as well sub library and build 64bit. Make sure it run correctly else the bullet errors. Hashlink 32bit error will show module errors. (if upgrade to vs2017)
+VS2017 Community
+
+Download hashlink src as well sub library and build release 64bit. Make sure it run correctly else the bullet errors. Hashlink 32bit error will show module errors. (if upgrade to vs2017)
 
 https://github.com/HaxeFoundation/hashlink
 
@@ -36,16 +38,18 @@ HaxeToolkit\haxe\lib\bulletmod <- compile
 HaxeToolkit\haxe\lib\bulletmod\src\bullet <- bullet3 2.87 version src file
 ```
 
-install make
+## install make
 
 https://chocolatey.org/packages/make
 
+## install webidl
 
 https://github.com/ncannasse/webidl
 
+```
 haxelib git webidl https://github.com/ncannasse/webidl
-
-Note you might get error on the webidl. Used the git update version.
+```
+Note you might get error on the webidl. Used the git update for lastest version.
 
 command run
 ```
@@ -66,7 +70,6 @@ Requires having hashlink one level upper than bullet directory, such as:
 /hashlink
 /libs
    /bullet
-		/git
-			
+      /git	
    /bulletmnod/src/bullet
 ```
